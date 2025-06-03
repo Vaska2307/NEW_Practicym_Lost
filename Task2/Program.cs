@@ -10,11 +10,14 @@ if (a > b)
 {
     Console.Write($"{a} больше {b}");
 }
-if (a < b)
+else
 {
-    Console.Write($"{a} меньше {b}");
-}
-if(a == b)
-{
-    Console.Write($"{a} равно {b}");
+    if (a < b)
+    {
+        Console.Write($"{a} меньше {b}");
+    }
+    else
+    {
+        Console.Write($"{a} равно {b}");
+    }
 }
